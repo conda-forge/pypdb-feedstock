@@ -1,6 +1,6 @@
 {% set name = "pypdb" %}
-{% set version = "1.310" %}
-{% set sha256 = "aea346e6a10f3400fe56aa89381afcf9dfd533dfc5802d39072e71555c36e16d" %}
+{% set version = "2.0" %}
+{% set sha256 = "d62227e01b65610ced18865b92fe275061774f93ac85f890cf6f11f2dab1854f" %}
 
 
 package:
@@ -24,22 +24,20 @@ requirements:
   run:
     - python >=3.6
     - requests
-    - xmltodict
-    - beautifulsoup4
 
 test:
   imports:
     - pypdb
 
 about:
-    home: http://www.wgilpin.com/pypdb_docs/html/
-    license: MIT
-    license_family: MIT
-    license_file: LICENSE.txt
-    summary: A Python toolkit for performing searches with the RCSB Protein Data Bank (PDB) using its XML-based API.
-    dev_url: https://github.com/williamgilpin/pypdb
+  home: http://www.wgilpin.com/pypdb_docs/html/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: A Python toolkit for performing searches with the RCSB Protein Data Bank (PDB) using its XML-based API.
+  dev_url: https://github.com/williamgilpin/pypdb
 
 extra:
-    recipe-maintainers:
-        - tsenapathi
-        - moorepants
+  recipe-maintainers:
+    - tsenapathi
+    - moorepants
