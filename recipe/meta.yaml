@@ -1,6 +1,6 @@
 {% set name = "pypdb" %}
-{% set version = "2.1" %}
-{% set sha256 = "05ae483c9471c2715af5c47be1a62c8f9936d26cbe9d7b3f4e9c6d811abed3e0" %}
+{% set version = "2.2" %}
+{% set sha256 = "771fe76382c10f26f1a1abd3cda2767b83d561c737194ea9d888cb1e712ef0d3" %}
 
 
 package:
