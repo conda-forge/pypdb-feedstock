@@ -1,11 +1,11 @@
-About pypdb
-===========
+About pypdb-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypdb-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.wgilpin.com/pypdb_docs/html/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypdb-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python toolkit for performing searches with the RCSB Protein Data Bank (PDB) using its XML-based API.
 
