@@ -1,6 +1,6 @@
 {% set name = "pypdb" %}
-{% set version = "2.2" %}
-{% set sha256 = "771fe76382c10f26f1a1abd3cda2767b83d561c737194ea9d888cb1e712ef0d3" %}
+{% set version = "2.3" %}
+{% set sha256 = "a14aa2b5e5ece60552178fe3d35bdb0b38d6b0e9e7216bcc9c174386904c249f" %}
 
 
 package:
@@ -24,6 +24,7 @@ requirements:
   run:
     - python >=3.6
     - requests
+    - pandas
 
 test:
   imports:
