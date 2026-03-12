@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - requests
-    - pandas
+    - requests >=2.0
+    - pip >=26.0.1
 
 test:
   requires:
