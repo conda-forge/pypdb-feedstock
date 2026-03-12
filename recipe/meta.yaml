@@ -1,6 +1,6 @@
 {% set name = "pypdb" %}
-{% set version = "2.4" %}
-{% set sha256 = "2e865f9cb41c789d78988a73e12d2e329a50d65f28da26d2011202073fde7365" %}
+{% set version = "2.5" %}
+{% set sha256 = "8be4575a5b8adafaa2e62a268249cd2b30d87480117d3165487f1b011c24d445" %}
 
 
 package:
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
